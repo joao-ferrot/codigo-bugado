@@ -1,0 +1,35 @@
+
+{
+  "pets":  [
+    {
+     "id":1,
+     "nome":"scooby",
+     "raca":"labrador dinarmaques",
+     "descricao":"cachorro falante muito suspeito",
+     "imagem":"https://upload.wikimedia.org/wikipedia/commons/3/3d/Great_dane.jpg"
+     },
+     
+     {
+     "id":2,
+     "nome": "Lhasa Apso" ,
+     "raca":"peludo ao extremo",
+     "descricao":"nao da para saber a reaçao ",
+     "imagem":"https://upload.wikimedia.org/wikipedia/pt/8/83/Floquinho_TdM.png"
+     
+     
+     },
+     {
+     "id":3,
+     "nome":"Dragao",
+     "raca":"perigoso , mas voa",
+     "descricao":" solta fogo , tem altura de um predio de",
+     "imagem":"https://i.redd.it/rs23db539dx81.jpg"
+     
+     
+     }
+     
+     
+    ]
+    
+    }
+    

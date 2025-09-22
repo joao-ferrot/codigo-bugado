@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.formulario{
+
+    border:none;
+    border-radius: 10px;
+    box-shadow: 10px 5px 30px;
+    width: 450px;
+    height: 450px;
+   
+    margin: 0 auto;
+
+}
+.formulario>h2{
+    text-align:center;
+    color: #FD5446;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Inter",sans-serif;
+
+}
+
+.formulario>div>form{
+    display: grid;
+    margin: 0 auto;
+    align-content: center;
+    gap: 20px;
+    width: 350px;
+    height: 350px;
+
+}
+input,textarea,button{
+    width: 100%;
+    border-radius: 6px;
+    border-color: gray;
+
+    box-shadow: 20px 10px 5px color gray;
+    height: 40px;
+
+
+}
+
+textarea::placeholder{
+    margin-right:-20px;
+
+}
+
+input::placeholder{
+    margin-left: 30px;
+
+}
+form>button{
+    background-color:#FD5446;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    height: 80px;
+    cursor: pointer;
+}
+form>textarea{
+    max-height: 90px;
+    max-width: 350px;
+}

@@ -1,0 +1,49 @@
+
+
+main>.principal>h1{
+    font-family: "Inter",sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color:#3E3D3C;
+    margin-left:40px;
+
+}
+.principal2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+main{
+    margin-top:80px ;
+   
+
+    height: 600px;
+}
+.vendas{
+    
+    border: solid red;
+    display: flex;
+
+    
+}
+main>.principal>.vendas>div{
+    width: 270px;
+    height: 500px;
+  
+    border-radius: 10px;
+
+}
+footer>span{
+    font-family: "Inter",sans-serif;
+    font-size:17px;
+    color: #5C5B5A;
+    
+    align-items: center;
+}
+footer{
+    background-color:#2B2826 ;
+    height: 70px;
+    align-content: center;
+text-align: center;
+}
